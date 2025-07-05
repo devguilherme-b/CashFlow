@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CashFlow.API.props" />
+</Project>
