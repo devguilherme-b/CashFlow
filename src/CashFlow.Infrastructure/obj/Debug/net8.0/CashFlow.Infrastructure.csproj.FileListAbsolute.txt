@@ -28,3 +28,4 @@ D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\Cash
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\refint\CashFlow.Infrastructure.dll
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.pdb
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\ref\CashFlow.Infrastructure.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.sourcelink.json
