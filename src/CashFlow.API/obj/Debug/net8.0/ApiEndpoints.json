@@ -24,7 +24,7 @@
         "StatusCode": 201
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "Type": "CashFlow.Communication.Responses.ResponseErrorJson",
         "MediaTypes": [
           "text/plain",
           "application/json",

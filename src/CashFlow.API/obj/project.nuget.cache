@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QEZ3dhEWctw=",
+  "dgSpecHash": "Fk+0BIO9Wp4=",
   "success": true,
   "projectFilePath": "D:\\A1 - Projetos\\.NET\\CashFlow\\src\\CashFlow.API\\CashFlow.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\devgu\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.17\\microsoft.entityframeworkcore.8.0.17.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.17\\microsoft.entityframeworkcore.abstractions.8.0.17.nupkg.sha512",

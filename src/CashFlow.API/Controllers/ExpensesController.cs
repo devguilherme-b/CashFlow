@@ -12,12 +12,12 @@ public class ExpensesController : ControllerBase
 {
     [HttpPost]
     [ProducesResponseType(typeof(ResponseRegisterExpenseJson), StatusCodes.Status201Created)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public IActionResult Register(
+    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> Register(
         [FromServices] IRegisterExpensesUseCase useCase,
         [FromBody] RequestRegisterExpenseJson request)
     {
-        var response = useCase.Execute(request);
+        var response = await useCase.Execute(request);
         return Created(string.Empty, response);
     }
 }

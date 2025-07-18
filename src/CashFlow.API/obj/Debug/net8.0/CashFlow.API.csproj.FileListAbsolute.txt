@@ -60,3 +60,4 @@ D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.Exten
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\MySqlConnector.dll
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.sourcelink.json
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\AutoMapper.dll

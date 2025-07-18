@@ -5,12 +5,13 @@ using CashFlow.Infrastructure.DataAccess;
 namespace CashFlow.Infrastructure.Repositories;
 internal class ExpensesRepository : IExpensesRepository
 {
-    public void Add(Expense expense)
+    private readonly CashFlowDbContext _dbContext;
+    public ExpensesRepository(CashFlowDbContext dbContext)
     {
-        var dbContext = new CashFlowDbContext();
-
-        dbContext.Add(expense);
-
-        dbContext.SaveChanges();
+        _dbContext = dbContext;
+    }
+    public async Task Add(Expense expense)
+    {
+        await _dbContext.AddAsync(expense);
     }
 }
