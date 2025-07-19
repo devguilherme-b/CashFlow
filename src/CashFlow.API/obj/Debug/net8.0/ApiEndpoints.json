@@ -33,5 +33,30 @@
         "StatusCode": 400
       }
     ]
+  },
+  {
+    "ContainingType": "CashFlow.API.Controllers.ExpensesController",
+    "Method": "GetAllExpenses",
+    "RelativePath": "api/Expenses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CashFlow.Communication.Responses.ResponseGetAllExpensesJson",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ]
   }
 ]

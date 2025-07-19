@@ -4,7 +4,5 @@ namespace CashFlow.Domain.Repositories.Expenses;
 public interface IExpensesRepository
 {
     Task Add(Expense expense);
-    //void Read(Expense expense);
-    //void Update(Expense expense);
-    //void Delete(Expense expense);
+    Task<List<Expense>> GetAll();
 }
