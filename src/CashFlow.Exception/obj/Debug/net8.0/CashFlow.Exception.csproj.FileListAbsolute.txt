@@ -42,3 +42,4 @@ D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\CashFlow.
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\refint\CashFlow.Exception.dll
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\CashFlow.Exception.pdb
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\ref\CashFlow.Exception.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\CashFlow.Exception.sourcelink.json
