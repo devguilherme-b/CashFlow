@@ -43,7 +43,6 @@ public class RegisterExpenseUseCase : IRegisterExpensesUseCase
 
         if (!result.IsValid)
         {
-            // I used LINQ here
             var errorMenssage = result.Errors.Select(f => f.ErrorMessage).ToList();
             throw new ErrosOnValidationException(errorMenssage);
         }

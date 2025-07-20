@@ -42,13 +42,15 @@ Continue lendo para mais informações!
 
 ## 🛠️ Especificação do Software
 
-- Projeto dividido em duas camadas principais: `src` e `tests`;
+- Projeto dividido em duas grandes camadas: `src` (código principal) e `tests` (testes automatizados);
 - Integração com banco de dados relacional (MySQL);
-- Uso de Entity Framework Core como ORM (Object-Relational Mapping);
-- Implementação de testes unitários para validação das regras de negócio;
-- Geração e exportação de relatórios em Excel;
-- Validações robustas com FluentValidation;
-- Dados simulados com a biblioteca Bogus para testes.
+- Utilização do Entity Framework Core como ORM (Object-Relational Mapping);
+- Implementação de testes unitários para validação de regras de negócio;
+- **Exceptions customizadas**, com mensagens traduzidas para quatro idiomas: **Inglês, Francês, Português do Brasil e Português de Portugal**;
+- **Middleware e filtros de requisição** configurados para definir dinamicamente o idioma das respostas de erro;
+- Geração e exportação de relatórios financeiros em formato Excel;
+- Validações sólidas e reutilizáveis utilizando FluentValidation;
+- Geração de dados falsos para testes automatizados com a biblioteca Bogus.
 
 ---
 
