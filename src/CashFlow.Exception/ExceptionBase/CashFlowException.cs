@@ -8,4 +8,7 @@ public abstract class CashFlowException : SystemException
         // en: this message will be the same as Message under the hood in SystemException
         // pt-BR: esta message será igual a Message por baixo dos panos em SystemException
     }
+
+    public abstract int StatusCode { get; }
+    public abstract List<string> GetErrors();
 }

@@ -1,11 +1,19 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System.Net;
 
 namespace CashFlow.Exception.ExceptionBase;
 public class ErrosOnValidationException : CashFlowException
 {
-    public List<string> Errors { get; set; }
+    private readonly List<string> _errors;
+
+    public override int StatusCode => (int)HttpStatusCode.BadRequest;
+
     public ErrosOnValidationException(List<string> ErrorMensages) : base(string.Empty)
     {
-        Errors = ErrorMensages;
+        _errors = ErrorMensages;
+    }
+
+    public override List<string> GetErrors()
+    {
+        return _errors;
     }
 }
