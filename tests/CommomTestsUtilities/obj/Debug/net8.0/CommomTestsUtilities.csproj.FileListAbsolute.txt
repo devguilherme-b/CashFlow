@@ -13,3 +13,4 @@ D:\A1 - Projetos\.NET\CashFlow\tests\CommomTestsUtilities\obj\Debug\net8.0\Commo
 D:\A1 - Projetos\.NET\CashFlow\tests\CommomTestsUtilities\obj\Debug\net8.0\refint\CommomTestsUtilities.dll
 D:\A1 - Projetos\.NET\CashFlow\tests\CommomTestsUtilities\obj\Debug\net8.0\CommomTestsUtilities.pdb
 D:\A1 - Projetos\.NET\CashFlow\tests\CommomTestsUtilities\obj\Debug\net8.0\ref\CommomTestsUtilities.dll
+D:\A1 - Projetos\.NET\CashFlow\tests\CommomTestsUtilities\obj\Debug\net8.0\CommomTestsUtilities.sourcelink.json
