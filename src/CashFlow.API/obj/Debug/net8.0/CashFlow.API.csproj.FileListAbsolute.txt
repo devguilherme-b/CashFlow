@@ -61,3 +61,14 @@ D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\MySqlConnector.
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.sourcelink.json
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\AutoMapper.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\ClosedXML.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\ClosedXML.Parser.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\ExcelNumberFormat.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\RBush.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\SixLabors.Fonts.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\System.IO.Packaging.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\fr\CashFlow.Domain.resources.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\pt-PT\CashFlow.Domain.resources.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll

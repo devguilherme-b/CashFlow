@@ -69,25 +69,24 @@ Continue lendo para mais informações!
 - Shouldly  
 - Visual Studio  
 - Class Library  
-- Excel  
+- ClosedXML  
 
 ---
 
 ## 🔍 Descrição das Tecnologias
-
+- [**FluentValidation**](https://github.com/FluentValidation/FluentValidation): Biblioteca para validação de dados.
+- [**Bogus**](https://github.com/bchavez/Bogus): Geração de dados falsos para testes.  
+- [**Shouldly**](https://github.com/shouldly/shouldly): Biblioteca para tornar as asserções dos testes mais legíveis.  
+- [**ClosedXML**](https://github.com/ClosedXML/ClosedXML): Pacote NuGet usado para ler, manipular e escrever arquivos em Excel (.xlsx).
 - **C#**: Linguagem principal usada no desenvolvimento da aplicação.  
 - **.NET 8**: Plataforma de desenvolvimento moderna, multiplataforma e de alto desempenho.  
-- **ASP.NET Core Web App (MVC)**: Para desenvolvimento da interface web com padrão Model-View-Controller.  
 - **ASP.NET Core Web API**: Responsável por fornecer os endpoints RESTful.  
 - **Entity Framework Core**: ORM para mapeamento objeto-relacional.  
 - **MySQL**: Banco de dados relacional utilizado para persistência.  
 - **xUnit**: Framework de testes unitários.  
-- **FluentValidation**: Biblioteca de validação de modelos de dados.  
-- **Bogus**: Geração de dados falsos para testes.  
-- **Shouldly**: Biblioteca para tornar as asserções dos testes mais legíveis.  
-- **Excel**: Exportação e manipulação de relatórios.  
-- **Visual Studio**: IDE utilizada no desenvolvimento.  
-
+- **Visual Studio**: IDE utilizada no desenvolvimento. 
+- **ASP.NET Core Web App (MVC)**: Para desenvolvimento da interface web com padrão Model-View-Controller.  
+ 
 ---
 
 ## 🧱 Arquitetura
