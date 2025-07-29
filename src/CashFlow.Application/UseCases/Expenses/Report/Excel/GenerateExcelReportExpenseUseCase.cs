@@ -14,7 +14,7 @@ public class GenerateExcelReportExpenseUseCase : IGenerateExcelReportExpenseUseC
     }
     public async Task<byte[]> Execute(DateOnly month)
     {
-        var expenses = await _repository.GetByMonth(month);
+        var expenses = await _repository.FilterByMonth(month);
 
         if (expenses.Count == 0)
             return [];
@@ -57,11 +57,11 @@ public class GenerateExcelReportExpenseUseCase : IGenerateExcelReportExpenseUseC
     {
         return paymentType switch
         {
-            PaymentType.Cash => ResourceConvertPaymentType.CASH,
-            PaymentType.CreditCard => ResourceConvertPaymentType.CREDITCARD,
-            PaymentType.DebitCard => ResourceConvertPaymentType.DEBITCARD,
-            PaymentType.EletronicTransfer => ResourceConvertPaymentType.ELETRONICTRANSFER,
-            PaymentType.Pix => ResourceConvertPaymentType.PIX,
+            PaymentType.Cash => ResourceReportGenerateMessage.CASH,
+            PaymentType.CreditCard => ResourceReportGenerateMessage.CREDITCARD,
+            PaymentType.DebitCard => ResourceReportGenerateMessage.DEBITCARD,
+            PaymentType.EletronicTransfer => ResourceReportGenerateMessage.ELETRONICTRANSFER,
+            PaymentType.Pix => ResourceReportGenerateMessage.PIX,
             _ => string.Empty
         };
     }

@@ -22,11 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Enums\ResourceConvertPaymentType.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>ResourceConvertPaymentType.resx</DependentUpon>
-    </Compile>
     <Compile Update="Reports\ResourceReportGenerateMessage.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -35,12 +30,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Enums\ResourceConvertPaymentType.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResourceConvertPaymentType.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Update="Reports\ResourceReportGenerateMessage.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ResourceReportGenerateMessage.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>

@@ -29,9 +29,3 @@ D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Dom
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.csproj.GenerateResource.cache
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\fr\CashFlow.Domain.resources.dll
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\pt-PT\CashFlow.Domain.resources.dll
-D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
-D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.Enums.ResourceConvertPaymentType.resources
-D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.Enums.ResourceConvertPaymentType.fr.resources
-D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.Enums.ResourceConvertPaymentType.pt-BR.resources
-D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.Enums.ResourceConvertPaymentType.pt-PT.resources
-D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll

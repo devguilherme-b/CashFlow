@@ -196,5 +196,32 @@
         "StatusCode": 204
       }
     ]
+  },
+  {
+    "ContainingType": "CashFlow.API.Controllers.ReportController",
+    "Method": "GetPdf",
+    "RelativePath": "api/Report/pdf",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "month",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ]
   }
 ]

@@ -23,13 +23,13 @@ namespace CashFlow.Domain.Reports {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class ResourceReportGenerateMessage {
-
-        public static global::System.Resources.ResourceManager resourceMan;
-
-        public static global::System.Globalization.CultureInfo resourceCulture;
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        public ResourceReportGenerateMessage() {
+        internal ResourceReportGenerateMessage() {
         }
         
         /// <summary>
@@ -59,7 +59,7 @@ namespace CashFlow.Domain.Reports {
                 resourceCulture = value;
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Amount.
         /// </summary>
@@ -68,7 +68,34 @@ namespace CashFlow.Domain.Reports {
                 return ResourceManager.GetString("AMOUNT", resourceCulture);
             }
         }
-
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Guilherme Barbosa - DEVguilherme.
+        /// </summary>
+        public static string AUTHOR {
+            get {
+                return ResourceManager.GetString("AUTHOR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cash.
+        /// </summary>
+        public static string CASH {
+            get {
+                return ResourceManager.GetString("CASH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Credit card.
+        /// </summary>
+        public static string CREDITCARD {
+            get {
+                return ResourceManager.GetString("CREDITCARD", resourceCulture);
+            }
+        }
+        
         /// <summary>
         ///   Looks up a localized string similar to Date.
         /// </summary>
@@ -77,7 +104,16 @@ namespace CashFlow.Domain.Reports {
                 return ResourceManager.GetString("DATE", resourceCulture);
             }
         }
-
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Debit card.
+        /// </summary>
+        public static string DEBITCARD {
+            get {
+                return ResourceManager.GetString("DEBITCARD", resourceCulture);
+            }
+        }
+        
         /// <summary>
         ///   Looks up a localized string similar to Description.
         /// </summary>
@@ -86,7 +122,25 @@ namespace CashFlow.Domain.Reports {
                 return ResourceManager.GetString("DESCRIPTION", resourceCulture);
             }
         }
-
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Eletronic transfer.
+        /// </summary>
+        public static string ELETRONICTRANSFER {
+            get {
+                return ResourceManager.GetString("ELETRONICTRANSFER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expense for {0}.
+        /// </summary>
+        public static string EXPENSE_FOR {
+            get {
+                return ResourceManager.GetString("EXPENSE_FOR", resourceCulture);
+            }
+        }
+        
         /// <summary>
         ///   Looks up a localized string similar to Payment type.
         /// </summary>
@@ -97,11 +151,29 @@ namespace CashFlow.Domain.Reports {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pix.
+        /// </summary>
+        public static string PIX {
+            get {
+                return ResourceManager.GetString("PIX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Title.
         /// </summary>
         public static string TITLE {
             get {
                 return ResourceManager.GetString("TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Total spend in {0}.
+        /// </summary>
+        public static string TOTAL_SPEND_IN {
+            get {
+                return ResourceManager.GetString("TOTAL_SPEND_IN", resourceCulture);
             }
         }
     }

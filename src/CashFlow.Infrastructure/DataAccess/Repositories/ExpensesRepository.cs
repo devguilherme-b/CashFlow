@@ -47,7 +47,7 @@ internal class ExpensesRepository : IExpensesReadOnlyRepository, IExpensesWriteO
         _dbContext.Expenses.Update(expense);
     }
 
-    public async Task<List<Expense>> GetByMonth(DateOnly month)
+    public async Task<List<Expense>> FilterByMonth(DateOnly month)
     {
         var startMonth = new DateTime(year: month.Year, month: month.Month, day: 1).Date;
         var endDayOnMonth = DateTime.DaysInMonth(month.Year, month.Month);

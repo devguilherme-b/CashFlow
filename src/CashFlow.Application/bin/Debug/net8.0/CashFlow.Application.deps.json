@@ -14,7 +14,8 @@
           "CashFlow.Exception": "1.0.0",
           "CashFlow.Infrastructure": "1.0.0",
           "ClosedXML": "0.105.0",
-          "FluentValidation": "12.0.0"
+          "FluentValidation": "12.0.0",
+          "PDFsharp-MigraDoc": "6.2.1"
         },
         "runtime": {
           "CashFlow.Application.dll": {}
@@ -238,6 +239,71 @@
           }
         }
       },
+      "PDFsharp/6.2.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "8.0.1",
+          "System.Security.Cryptography.Pkcs": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/PdfSharp.BarCodes.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.7508"
+          },
+          "lib/net8.0/PdfSharp.Charting.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.7508"
+          },
+          "lib/net8.0/PdfSharp.Cryptography.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.7508"
+          },
+          "lib/net8.0/PdfSharp.Quality.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.7508"
+          },
+          "lib/net8.0/PdfSharp.Shared.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.7508"
+          },
+          "lib/net8.0/PdfSharp.Snippets.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.7508"
+          },
+          "lib/net8.0/PdfSharp.System.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.7508"
+          },
+          "lib/net8.0/PdfSharp.WPFonts.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.7508"
+          },
+          "lib/net8.0/PdfSharp.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.7508"
+          }
+        }
+      },
+      "PDFsharp-MigraDoc/6.2.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "8.0.1",
+          "PDFsharp": "6.2.1",
+          "System.Security.Cryptography.Pkcs": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/MigraDoc.DocumentObjectModel.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.7508"
+          },
+          "lib/net8.0/MigraDoc.Rendering.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.7508"
+          },
+          "lib/net8.0/MigraDoc.RtfRendering.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.7508"
+          }
+        }
+      },
       "Pomelo.EntityFrameworkCore.MySql/8.0.3": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "8.0.13",
@@ -269,6 +335,22 @@
       "System.IO.Packaging/8.0.1": {
         "runtime": {
           "lib/net8.0/System.IO.Packaging.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "System.Security.Cryptography.Pkcs/8.0.1": {
+        "runtime": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.1024.46610"
           }
@@ -485,6 +567,20 @@
       "path": "mysqlconnector/2.3.5",
       "hashPath": "mysqlconnector.2.3.5.nupkg.sha512"
     },
+    "PDFsharp/6.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u/vJfZhmp3g3oIGRngRnpSqKN2GxpJ9GeG7tKj2o/g/Tef9A+Ghlrq7I6eG5T28zUiUCOuFSilTm7iWz+bjWvA==",
+      "path": "pdfsharp/6.2.1",
+      "hashPath": "pdfsharp.6.2.1.nupkg.sha512"
+    },
+    "PDFsharp-MigraDoc/6.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2EFo94Ap+3UZvBIjh5q42tJ8baS5swbabO7dpvV4mxntUYjI2B2fUUPnHXexMeXOxGm6lnEDhzYYRar+PioCSQ==",
+      "path": "pdfsharp-migradoc/6.2.1",
+      "hashPath": "pdfsharp-migradoc.6.2.1.nupkg.sha512"
+    },
     "Pomelo.EntityFrameworkCore.MySql/8.0.3": {
       "type": "package",
       "serviceable": true,
@@ -512,6 +608,13 @@
       "sha512": "sha512-KYkIOAvPexQOLDxPO2g0BVoWInnQhPpkFzRqvNrNrMhVT6kqhVr0zEb6KCHlptLFukxnZrjuMVAnxK7pOGUYrw==",
       "path": "system.io.packaging/8.0.1",
       "hashPath": "system.io.packaging.8.0.1.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CoCRHFym33aUSf/NtWSVSZa99dkd0Hm7OCZUxORBjRB16LNhIEOf8THPqzIYlvKM0nNDAPTRBa1FxEECrgaxxA==",
+      "path": "system.security.cryptography.pkcs/8.0.1",
+      "hashPath": "system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
     },
     "CashFlow.Communication/1.0.0": {
       "type": "project",

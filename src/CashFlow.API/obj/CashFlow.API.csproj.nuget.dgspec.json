@@ -161,6 +161,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "PDFsharp-MigraDoc": {
+              "target": "Package",
+              "version": "[6.2.1, )"
             }
           },
           "imports": [

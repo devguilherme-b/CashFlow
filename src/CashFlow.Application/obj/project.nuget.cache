@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zVbPNmIbtNw=",
+  "dgSpecHash": "vOLlaIiyEcM=",
   "success": true,
   "projectFilePath": "D:\\A1 - Projetos\\.NET\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
   "expectedPackageFiles": [
@@ -25,10 +25,13 @@
     "C:\\Users\\devgu\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512",
+    "C:\\Users\\devgu\\.nuget\\packages\\pdfsharp\\6.2.1\\pdfsharp.6.2.1.nupkg.sha512",
+    "C:\\Users\\devgu\\.nuget\\packages\\pdfsharp-migradoc\\6.2.1\\pdfsharp-migradoc.6.2.1.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.3\\pomelo.entityframeworkcore.mysql.8.0.3.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\rbush.signed\\4.0.0\\rbush.signed.4.0.0.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",
-    "C:\\Users\\devgu\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512"
+    "C:\\Users\\devgu\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512",
+    "C:\\Users\\devgu\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -120,16 +120,40 @@
   <data name="AMOUNT" xml:space="preserve">
     <value>Quantia</value>
   </data>
+  <data name="AUTHOR" xml:space="preserve">
+    <value>Guilherme Barbosa - DEVguilherme</value>
+  </data>
+  <data name="CASH" xml:space="preserve">
+    <value>Dinheiro</value>
+  </data>
+  <data name="CREDITCARD" xml:space="preserve">
+    <value>Cartão de crédito</value>
+  </data>
   <data name="DATE" xml:space="preserve">
     <value>Data</value>
+  </data>
+  <data name="DEBITCARD" xml:space="preserve">
+    <value>Cartão de crédito</value>
   </data>
   <data name="DESCRIPTION" xml:space="preserve">
     <value>Descrição</value>
   </data>
+  <data name="ELETRONICTRANSFER" xml:space="preserve">
+    <value>Transferência eletrônica</value>
+  </data>
+  <data name="EXPENSE_FOR" xml:space="preserve">
+    <value>Despesa para {0}</value>
+  </data>
   <data name="PAYMENT_TYPE" xml:space="preserve">
     <value>Tipo de pagamento</value>
   </data>
+  <data name="PIX" xml:space="preserve">
+    <value>Pix</value>
+  </data>
   <data name="TITLE" xml:space="preserve">
     <value>Título</value>
+  </data>
+  <data name="TOTAL_SPEND_IN" xml:space="preserve">
+    <value>Gasto total em {0}</value>
   </data>
 </root>

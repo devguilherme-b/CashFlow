@@ -14,9 +14,6 @@
           "fr/CashFlow.Domain.resources.dll": {
             "locale": "fr"
           },
-          "pt-BR/CashFlow.Domain.resources.dll": {
-            "locale": "pt-BR"
-          },
           "pt-PT/CashFlow.Domain.resources.dll": {
             "locale": "pt-PT"
           }
