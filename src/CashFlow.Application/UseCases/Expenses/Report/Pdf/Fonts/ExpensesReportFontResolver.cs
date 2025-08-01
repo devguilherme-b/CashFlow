@@ -28,6 +28,6 @@ public class ExpensesReportFontResolver : IFontResolver
     {
         var assembly = Assembly.GetExecutingAssembly();
 
-        return assembly.GetManifestResourceStream($"CashFlow.Application.UseCases.Expenses.Reports.Pdf.Fonts.{faceName}.ttf");
+        return assembly.GetManifestResourceStream($"CashFlow.Application.UseCases.Expenses.Report.Pdf.Fonts.{faceName}.ttf");
     }
 }

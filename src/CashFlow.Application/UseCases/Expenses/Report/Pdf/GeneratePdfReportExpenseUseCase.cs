@@ -25,6 +25,16 @@ public class GeneratePdfReportExpenseUseCase : IGeneratePdfReportExpenseUseCase
 
         var document = CreateDocument(month);
         var page = CreatePage(document);
+
+        var table = page.AddTable();
+        table.AddColumn();
+        table.AddColumn();
+
+        var row = table.AddRow();
+        row.Cells[0].AddImage("C:\\Users\\devgu\\OneDrive\\Desktop\\foto-profissional.jpg");
+        row.Cells[1].AddParagraph("Hi, Guilherme Barbosa")
+            .Format.Font.Name = FontHelper.RALEWAY_BLACK;
+
         var paragraph = page.AddParagraph();
 
         var title = string.Format(ResourceReportGenerateMessage.EXPENSE_FOR, month.ToString("Y"));
@@ -41,7 +51,7 @@ public class GeneratePdfReportExpenseUseCase : IGeneratePdfReportExpenseUseCase
     {
         var document = new Document();
 
-        document.Info.Title = $"{ResourceReportGenerateMessage.EXPENSE_FOR} {month:Y}";
+        document.Info.Title = $"{ResourceReportGenerateMessage.TOTAL_SPEND_IN} {month:Y}";
         document.Info.Author = "Guilherme Barbosa - DEVguilherme";
 
         var style = document.Styles["Normal"];
