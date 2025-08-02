@@ -43,6 +43,9 @@
               },
               "D:\\A1 - Projetos\\.NET\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {
                 "projectPath": "D:\\A1 - Projetos\\.NET\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj"
+              },
+              "D:\\A1 - Projetos\\.NET\\CashFlow\\tests\\CommomTestsUtilities\\CommomTestsUtilities.csproj": {
+                "projectPath": "D:\\A1 - Projetos\\.NET\\CashFlow\\tests\\CommomTestsUtilities\\CommomTestsUtilities.csproj"
               }
             }
           }

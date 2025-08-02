@@ -18,6 +18,19 @@
           }
         }
       },
+      "Bogus/35.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "ClosedXML/0.105.0": {
         "type": "package",
         "dependencies": {
@@ -578,6 +591,20 @@
         "runtime": {
           "bin/placeholder/CashFlow.Infrastructure.dll": {}
         }
+      },
+      "CommomTestsUtilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Bogus": "35.6.3",
+          "CashFlow.Communication": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommomTestsUtilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommomTestsUtilities.dll": {}
+        }
       }
     }
   },
@@ -595,6 +622,27 @@
         "icon.png",
         "lib/net6.0/AutoMapper.dll",
         "lib/net6.0/AutoMapper.xml"
+      ]
+    },
+    "Bogus/35.6.3": {
+      "sha512": "+5omfZWy8gOcbpc48vKfMI4h/ecbdf3NQm6xCl3zMbaP4J3rMMm5h3kPFeIWBgt4mbz6YY0eeZDLR/6yv1khKw==",
+      "type": "package",
+      "path": "bogus/35.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "bogus.128.png",
+        "bogus.35.6.3.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/net6.0/Bogus.dll",
+        "lib/net6.0/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
       ]
     },
     "ClosedXML/0.105.0": {
@@ -1405,6 +1453,11 @@
       "type": "project",
       "path": "../CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
       "msbuildProject": "../CashFlow.Infrastructure/CashFlow.Infrastructure.csproj"
+    },
+    "CommomTestsUtilities/1.0.0": {
+      "type": "project",
+      "path": "../../tests/CommomTestsUtilities/CommomTestsUtilities.csproj",
+      "msbuildProject": "../../tests/CommomTestsUtilities/CommomTestsUtilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1415,6 +1468,7 @@
       "CashFlow.Exception >= 1.0.0",
       "CashFlow.Infrastructure >= 1.0.0",
       "ClosedXML >= 0.105.0",
+      "CommomTestsUtilities >= 1.0.0",
       "FluentValidation >= 12.0.0",
       "PDFsharp-MigraDoc >= 6.2.1"
     ]
@@ -1462,6 +1516,9 @@
             },
             "D:\\A1 - Projetos\\.NET\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {
               "projectPath": "D:\\A1 - Projetos\\.NET\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj"
+            },
+            "D:\\A1 - Projetos\\.NET\\CashFlow\\tests\\CommomTestsUtilities\\CommomTestsUtilities.csproj": {
+              "projectPath": "D:\\A1 - Projetos\\.NET\\CashFlow\\tests\\CommomTestsUtilities\\CommomTestsUtilities.csproj"
             }
           }
         }

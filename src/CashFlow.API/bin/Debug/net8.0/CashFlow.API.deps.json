@@ -29,6 +29,14 @@
           }
         }
       },
+      "Bogus/35.6.3": {
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "assemblyVersion": "35.6.3.0",
+            "fileVersion": "35.6.3.0"
+          }
+        }
+      },
       "ClosedXML/0.105.0": {
         "dependencies": {
           "ClosedXML.Parser": "2.0.0",
@@ -389,6 +397,7 @@
           "CashFlow.Exception": "1.0.0",
           "CashFlow.Infrastructure": "1.0.0",
           "ClosedXML": "0.105.0",
+          "CommomTestsUtilities": "1.0.0",
           "FluentValidation": "12.0.0",
           "PDFsharp-MigraDoc": "6.2.1"
         },
@@ -454,6 +463,18 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "CommomTestsUtilities/1.0.0": {
+        "dependencies": {
+          "Bogus": "35.6.3",
+          "CashFlow.Communication": "1.0.0"
+        },
+        "runtime": {
+          "CommomTestsUtilities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -469,6 +490,13 @@
       "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
       "path": "automapper/13.0.1",
       "hashPath": "automapper.13.0.1.nupkg.sha512"
+    },
+    "Bogus/35.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+5omfZWy8gOcbpc48vKfMI4h/ecbdf3NQm6xCl3zMbaP4J3rMMm5h3kPFeIWBgt4mbz6YY0eeZDLR/6yv1khKw==",
+      "path": "bogus/35.6.3",
+      "hashPath": "bogus.35.6.3.nupkg.sha512"
     },
     "ClosedXML/0.105.0": {
       "type": "package",
@@ -722,6 +750,11 @@
       "sha512": ""
     },
     "CashFlow.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommomTestsUtilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

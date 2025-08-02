@@ -1071,6 +1071,7 @@
           "CashFlow.Exception": "1.0.0",
           "CashFlow.Infrastructure": "1.0.0",
           "ClosedXML": "0.105.0",
+          "CommomTestsUtilities": "1.0.0",
           "FluentValidation": "12.0.0",
           "PDFsharp-MigraDoc": "6.2.1"
         },
