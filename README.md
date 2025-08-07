@@ -5,152 +5,51 @@
 
 **Autor**: [Guilherme Barbosa](https://github.com/devguilherme-b)
 
----
+## Sobre o projeto
 
-## 📑 Sumário
+Esta **API** foi desenvolvida para o registro de despesas, permitindo que os usuários informem dados como título, data e hora, descrição, valor e forma de pagamento. Todas as informações são armazenadas de forma segura em um banco de dados **MySQL**.
 
-1. [Objetivo](#-objetivo)  
-2. [Descrição](#-descrição)  
-3. [Especificação do Software](#-especificação-do-software)  
-4. [Tecnologias Utilizadas](#-tecnologias-utilizadas)  
-5. [Descrição das Tecnologias](#-descrição-das-tecnologias)  
-6. [Arquitetura](#arquitetura)  
-7. [Diagrama do Projeto](#diagrama-do-projeto)  
-8. [Créditos e Recomendações](#-créditos-e-recomendações)  
-9. [Meios de Contato](#-meios-de-contato)
+A aplicação utiliza a stack **.NET com C#**, estruturada com base em **Domain-Driven Design (DDD)**, princípios **SOLID** e práticas modernas de validação com **FluentValidation**. Conta com **exceptions customizadas**, com mensagens de erro traduzidas automaticamente para quatro idiomas: Inglês, Francês, Português do Brasil e Português de Portugal. A definição do idioma é feita dinamicamente por meio de **middlewares e filtros de requisição**, com base nas configurações do dispositivo do usuário.
 
----
+A API também oferece uma documentação interativa via **Swagger**, facilitando a exploração e testes dos endpoints por desenvolvedores.
 
-## 🎯 Objetivo
+### Features
 
-Ajudar as pessoas a **organizar suas despesas** de forma rápida, prática e segura.
+- **CRUD completo**: Permitindo a criação, consulta, edição e delete de despesas;
+- **Geração de relatórios**: Exporta relatórios detalhados para **PDF e Excel**, oferecendo uma análise visual e eficaz das despesas;
 
----
+- **RESTful API com Documentação Swagger**: Interface documentada que facilita a integração e o teste por parte dos desenvolvedores.;
+- **Domain-Driven Design (DDD)**: Estrutura modular que facilita o entendimento e a manutenção do domínio da aplicação.
+- **Testes de Unidade**: Testes abrangentes com FluentAssertions para garantir a funcionalidade e a qualidade.
 
-## 📄 Descrição
+### Construído com
 
-O CashFlow é um sistema voltado para o controle financeiro pessoal, desenvolvido com foco em arquitetura limpa e princípios **SOLID**. O sistema é baseado na stack **.NET com C#**, estruturado para aplicações Web e APIs, com persistência em banco de dados relacional e práticas modernas de testes e validações.
+![badge-dot-net]
+![badge-windows]
+![badge-visual-studio]
+![badge-mysql]
+![badge-swagger]
+##  Diagrama de dependências
 
-Com isso, o sistema possibilita:
+<div align="center">
+   <img src="src/CashFlow.Communication/Assets/imgs/Dependency-diagram.png" alt="Diagrama de dependência do projeto" height="200">
+</div>
 
-- **CRUD** (Create, Read, Update, Delete) completo;
-- **Geração e exportação de relatórios para Excel**, com download habilitado.
+#### Entendendo o diagrama:
 
-Continue lendo para mais informações!
-
----
-
-## 🛠️ Especificação do Software
-
-- Projeto dividido em duas grandes camadas: `src` (código principal) e `tests` (testes automatizados);
-- Integração com banco de dados relacional (MySQL);
-- Utilização do Entity Framework Core como ORM (Object-Relational Mapping);
-- Implementação de testes unitários para validação de regras de negócio;
-- **Exceptions customizadas**, com mensagens traduzidas para quatro idiomas: **Inglês, Francês, Português do Brasil e Português de Portugal**;
-- **Middleware e filtros de requisição** configurados para definir dinamicamente o idioma das respostas de erro;
-- Geração e exportação de relatórios financeiros em formato Excel;
-- Validações sólidas e reutilizáveis utilizando FluentValidation;
-- Geração de dados falsos para testes automatizados com a biblioteca Bogus.
-
----
-
-## 🧰 Tecnologias Utilizadas
-
-- C#  
-- .NET 8  
-- ASP.NET Core Web App (MVC)  
-- ASP.NET Core Web API  
-- Entity Framework Core  
-- MySQL  
-- xUnit  
-- FluentValidation  
-- AutoMapper  
-- Bogus  
-- Shouldly  
-- Visual Studio  
-- Class Library  
-- ClosedXML  
-
----
-
-## 🔍 Descrição das Tecnologias
-- [**FluentValidation**](https://github.com/FluentValidation/FluentValidation): Biblioteca para validação de dados.
-- [**Bogus**](https://github.com/bchavez/Bogus): Geração de dados falsos para testes.  
-- [**Shouldly**](https://github.com/shouldly/shouldly): Biblioteca para tornar as asserções dos testes mais legíveis.  
-- [**ClosedXML**](https://github.com/ClosedXML/ClosedXML): Pacote NuGet usado para ler, manipular e escrever arquivos em Excel (.xlsx).
-- **C#**: Linguagem principal usada no desenvolvimento da aplicação.  
-- **.NET 8**: Plataforma de desenvolvimento moderna, multiplataforma e de alto desempenho.  
-- **ASP.NET Core Web API**: Responsável por fornecer os endpoints RESTful.  
-- **Entity Framework Core**: ORM para mapeamento objeto-relacional.  
-- **MySQL**: Banco de dados relacional utilizado para persistência.  
-- **xUnit**: Framework de testes unitários.  
-- **Visual Studio**: IDE utilizada no desenvolvimento. 
-- **ASP.NET Core Web App (MVC)**: Para desenvolvimento da interface web com padrão Model-View-Controller.  
- 
----
-
-## 🧱 Arquitetura
-
-O CashFlow segue o princípio **S (Single Responsibility)** do SOLID, com uma arquitetura baseada em responsabilidades bem definidas e separadas em camadas.
-
-### 📁 Estrutura
-
-```
-- src
-   |__ CashFlow.API
-   |__ CashFlow.Application
-   |__ CashFlow.Communication
-   |__ CashFlow.Domain
-   |__ CashFlow.Exception
-   |__ CashFlow.Infrastructure
-- tests
-   |__ CommomTestsUtilities
-   |__ Validator.Tests
-```
-
-### 📂 Descrição das camadas em `src`:
-
-- **CashFlow.API** – Responsável por receber requisições e devolver respostas.  
-- **CashFlow.Application** – Contém a lógica de negócio da aplicação.  
-- **CashFlow.Communication** – Define as classes de entrada (requests) e saída (responses).  
-- **CashFlow.Domain** – Reúne as entidades e interfaces compartilhadas.  
-- **CashFlow.Exception** – Tratamento de erros personalizados.  
-- **CashFlow.Infrastructure** – Implementação de repositórios e persistência de dados.
-
-### 🧪 Descrição das camadas em `tests`:
-
-- **CommonTestsUtilities** – Gera dados mockados com Bogus para testes.  
-- **Validator.Tests** – Testa validações com cenários diversos.
-
----
-
-## 🧭 Diagrama do Projeto
-
-<img src="src/CashFlow.Communication/Assets/imgs/Dependency-diagram.png" alt="Diagrama de dependência do projeto">
-
-O projeto possui dependências bem definidas e aplicadas de forma estratégica, o que garante:
-
-- **Consistência dos dados**
-- **Modularidade**
-- **Desempenho e manutenção facilitada**
-
-### ℹ️ Entendendo o diagrama:
-- **Cada seta** representa uma **dependência** entre projetos.
-- Um projeto **independente** é aquele que **não possui dependências externas**, ou seja, **apenas recebe setas** e **não aponta para outros**.
+Cada seta representa uma **dependência** entre projetos.
+Um projeto **independente** é aquele que **não possui dependências externas**, ou seja, **apenas recebe setas** e **não aponta** para outros.
 
 
----
-
-## 🙌 Créditos e Recomendações
+## Créditos
 
 Este software é fruto de um projeto prático presente na **Formação C#** da [Rocketseat](https://www.rocketseat.com.br/). Durante o curso, foram abordados diversos tópicos essenciais para desenvolvedores .NET Backend, e cada conhecimento foi aplicado neste projeto.
 
 Agradecimentos especiais para:
 
-- **Rocketseat** – Referência em educação para desenvolvedores.  
-- **Wellison Arley** – Professor e guia técnico durante o desenvolvimento do projeto.
+**Rocketseat** – Referência em educação para desenvolvedores.  
+**Wellison Arley** – Professor e guia técnico durante o desenvolvimento do projeto.
 
----
 
 ## 📬 Meios de Contato
 
@@ -158,7 +57,9 @@ Agradecimentos especiais para:
 - **LinkedIn**: [linkedin.com/in/devguilhermebarbosa](https://linkedin.com/in/devguilhermebarbosa)  
 - **GitHub**: [github.com/devguilherme-b](https://github.com/devguilherme-b)
 
----
-
-
-🧠 Sinta-se à vontade para `sugerir melhorias` ou `contribuir com o projeto! `
+<!-- Badges -->
+[badge-dot-net]: https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff&style=for-the-badge
+[badge-windows]: https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=fff&style=for-the-badge
+[badge-visual-studio]: https://img.shields.io/badge/Visual%20Studio-5C2D91?logo=visualstudio&logoColor=fff&style=for-the-badge
+[badge-mysql]: https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=for-the-badge
+[badge-swagger]: https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=000&style=for-the-badge
