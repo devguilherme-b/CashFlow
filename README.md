@@ -40,6 +40,28 @@ A API também oferece uma documentação interativa via **Swagger**, facilitando
 Cada seta representa uma **dependência** entre projetos.
 Um projeto **independente** é aquele que **não possui dependências externas**, ou seja, **apenas recebe setas** e **não aponta** para outros.
 
+## Getting Started
+
+Para obter uma cópia do projeto siga os seguintes passos:
+
+### Requisitos
+
+- Visual Studeo versão 2022+ ou Visual Studeo Code
+- Windows 10+ ou Linux/MasOS com [.NET SDK](https://dotnet.microsoft.com/pt-br/download) instalado
+- Banco de dados MySQL
+
+### Instalação
+
+1. Clone o repositório:
+
+   ```sh
+   git clone https://github.com/devguilherme-b/CashFlow.git
+   ```
+
+2. Acesse o projeto e preencha as informações no arquivo `appsettings.Development.json`
+
+3. Execute a aplicação
+
 
 ## Créditos
 
@@ -49,7 +71,6 @@ Agradecimentos especiais para:
 
 **Rocketseat** – Referência em educação para desenvolvedores.  
 **Wellison Arley** – Professor e guia técnico durante o desenvolvimento do projeto.
-
 
 ## 📬 Meios de Contato
 
