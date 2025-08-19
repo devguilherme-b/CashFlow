@@ -155,3 +155,4 @@ D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\refint\CashFlow
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.pdb
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.genruntimeconfig.cache
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\ref\CashFlow.API.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
