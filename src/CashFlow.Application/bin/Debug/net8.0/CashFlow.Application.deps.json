@@ -125,15 +125,15 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/8.0.17": {},
-      "Microsoft.EntityFrameworkCore.Relational/8.0.13": {
+      "Microsoft.EntityFrameworkCore.Relational/8.0.2": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.17",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "assemblyVersion": "8.0.13.0",
-            "fileVersion": "8.0.1325.6604"
+            "assemblyVersion": "8.0.2.0",
+            "fileVersion": "8.0.224.6803"
           }
         }
       },
@@ -313,15 +313,15 @@
           }
         }
       },
-      "Pomelo.EntityFrameworkCore.MySql/8.0.3": {
+      "Pomelo.EntityFrameworkCore.MySql/8.0.2": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.13",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
           "MySqlConnector": "2.3.5"
         },
         "runtime": {
           "lib/net8.0/Pomelo.EntityFrameworkCore.MySql.dll": {
-            "assemblyVersion": "8.0.3.0",
-            "fileVersion": "8.0.3.0"
+            "assemblyVersion": "8.0.2.0",
+            "fileVersion": "8.0.2.0"
           }
         }
       },
@@ -412,7 +412,7 @@
         "dependencies": {
           "CashFlow.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.17",
-          "Pomelo.EntityFrameworkCore.MySql": "8.0.3"
+          "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
         },
         "runtime": {
           "CashFlow.Infrastructure.dll": {
@@ -518,12 +518,12 @@
       "path": "microsoft.entityframeworkcore.analyzers/8.0.17",
       "hashPath": "microsoft.entityframeworkcore.analyzers.8.0.17.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Relational/8.0.13": {
+    "Microsoft.EntityFrameworkCore.Relational/8.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uQR2iTar+6ZEjEHTwgH0/7ySSRme4R9sDiupfG3w/eBub3365fPw/MjhsuOMQkdq9YzLM7veH4Qt/K9OqL26Qg==",
-      "path": "microsoft.entityframeworkcore.relational/8.0.13",
-      "hashPath": "microsoft.entityframeworkcore.relational.8.0.13.nupkg.sha512"
+      "sha512": "sha512-NoGfcq2OPw0z8XAPf74YFwGlTKjedWdsIEJqq4SvKcPjcu+B+/XDDNrDRxTvILfz4Ug8POSF49s1jz1JvUqTAg==",
+      "path": "microsoft.entityframeworkcore.relational/8.0.2",
+      "hashPath": "microsoft.entityframeworkcore.relational.8.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
       "type": "package",
@@ -609,12 +609,12 @@
       "path": "pdfsharp-migradoc/6.2.1",
       "hashPath": "pdfsharp-migradoc.6.2.1.nupkg.sha512"
     },
-    "Pomelo.EntityFrameworkCore.MySql/8.0.3": {
+    "Pomelo.EntityFrameworkCore.MySql/8.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gOHP6v/nFp5V/FgHqv9mZocGqCLGofihEX9dTbLhiXX3H7SJHmGX70GIPUpiqLT+1jIfDxg1PZh9MTUKuk7Kig==",
-      "path": "pomelo.entityframeworkcore.mysql/8.0.3",
-      "hashPath": "pomelo.entityframeworkcore.mysql.8.0.3.nupkg.sha512"
+      "sha512": "sha512-XjnlcxVBLnEMbyEc5cZzgZeDyLvAniACZQ04W1slWN0f4rmfNzl98gEMvHnFH0fMDF06z9MmgGi/Sr7hJ+BVnw==",
+      "path": "pomelo.entityframeworkcore.mysql/8.0.2",
+      "hashPath": "pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512"
     },
     "RBush.Signed/4.0.0": {
       "type": "package",

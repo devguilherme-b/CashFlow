@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Eh0eCqdn8hY=",
+  "dgSpecHash": "XU3LWkCU44I=",
   "success": true,
   "projectFilePath": "D:\\A1 - Projetos\\.NET\\CashFlow\\tests\\Validator.Tests\\Validator.Tests.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,7 @@
     "C:\\Users\\devgu\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.17\\microsoft.entityframeworkcore.8.0.17.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.17\\microsoft.entityframeworkcore.abstractions.8.0.17.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.17\\microsoft.entityframeworkcore.analyzers.8.0.17.nupkg.sha512",
-    "C:\\Users\\devgu\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.13\\microsoft.entityframeworkcore.relational.8.0.13.nupkg.sha512",
+    "C:\\Users\\devgu\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.2\\microsoft.entityframeworkcore.relational.8.0.2.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.1\\microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
@@ -37,7 +37,7 @@
     "C:\\Users\\devgu\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\pdfsharp\\6.2.1\\pdfsharp.6.2.1.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\pdfsharp-migradoc\\6.2.1\\pdfsharp-migradoc.6.2.1.nupkg.sha512",
-    "C:\\Users\\devgu\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.3\\pomelo.entityframeworkcore.mysql.8.0.3.nupkg.sha512",
+    "C:\\Users\\devgu\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.2\\pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\rbush.signed\\4.0.0\\rbush.signed.4.0.0.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\shouldly\\4.3.0\\shouldly.4.3.0.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",
