@@ -126,6 +126,12 @@
   <data name="EXPENSE_NOT_FOUND" xml:space="preserve">
     <value>Despesa não encontrada.</value>
   </data>
+  <data name="NAME_REQUIRED" xml:space="preserve">
+    <value>O nome é obrigatório.</value>
+  </data>
+  <data name="INVALID_PASSWORD" xml:space="preserve">
+    <value>A palavra-passe deve ter um mínimo de 8 caracteres, incluindo pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial (por exemplo: !, @, #, #, .).</value>
+  </data>
   <data name="PAYMENT_TYPE_INVALID" xml:space="preserve">
     <value>O tipo de pagamento não é válido.</value>
   </data>
@@ -134,5 +140,11 @@
   </data>
   <data name="UNKNOW_ERROR" xml:space="preserve">
     <value>Erro desconhecido.</value>
+  </data>
+  <data name="EMAIL_INVALID" xml:space="preserve">
+    <value>O e-mail inserido é inválido.</value>
+  </data>
+  <data name="EMAIL_EMPTY" xml:space="preserve">
+    <value>O email inserido não pode estar vazio.</value>
   </data>
 </root>
