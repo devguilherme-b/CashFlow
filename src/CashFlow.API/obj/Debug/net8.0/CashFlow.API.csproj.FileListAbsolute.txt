@@ -136,7 +136,6 @@ D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.Ge
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.AssemblyInfoInputs.cache
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.AssemblyInfo.cs
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.csproj.CoreCompileInputs.cache
-D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.MvcApplicationPartsAssemblyInfo.cs
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.MvcApplicationPartsAssemblyInfo.cache
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.sourcelink.json
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\scopedcss\bundle\CashFlow.API.styles.css
@@ -156,3 +155,5 @@ D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.pd
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.genruntimeconfig.cache
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\ref\CashFlow.API.dll
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.MvcApplicationPartsAssemblyInfo.cs

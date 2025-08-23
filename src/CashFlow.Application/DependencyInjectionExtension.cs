@@ -21,7 +21,6 @@ public static class DependencyInjectionExtension
     {
         services.AddAutoMapper(typeof(AutoMapping));
     }
-
     private static void AddUseCases(IServiceCollection services)
     {
         services.AddScoped<IRegisterExpensesUseCase, RegisterExpenseUseCase>();

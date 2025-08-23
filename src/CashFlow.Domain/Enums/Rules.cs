@@ -1,6 +1,6 @@
 ﻿namespace CashFlow.Domain.Enums;
-public class Rules
+public static class Rules
 {
-    public string ADM { get; } = "Administrador";
-    public string  TEAM_MEMBER { get; } = "TeamMember";
+    public const string ADM = "Administrador";
+    public const string  TEAM_MEMBER = "TeamMember";
 }

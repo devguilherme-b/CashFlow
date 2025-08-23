@@ -1,7 +1,6 @@
 ﻿using CashFlow.Application.UseCases.Users.Register;
 using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CashFlow.API.Controllers;

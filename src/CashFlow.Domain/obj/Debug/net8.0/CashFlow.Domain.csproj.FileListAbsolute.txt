@@ -29,5 +29,3 @@ D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Dom
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\refint\CashFlow.Domain.dll
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.pdb
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\ref\CashFlow.Domain.dll
-D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\fr\CashFlow.Domain.resources.cs
-D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\pt-PT\CashFlow.Domain.resources.cs
