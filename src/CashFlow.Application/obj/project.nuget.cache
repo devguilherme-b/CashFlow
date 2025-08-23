@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7su+iO7ekg4=",
+  "dgSpecHash": "zReEc8uI7Fs=",
   "success": true,
   "projectFilePath": "D:\\A1 - Projetos\\.NET\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\devgu\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\devgu\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\bogus\\35.6.3\\bogus.35.6.3.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\closedxml\\0.105.0\\closedxml.0.105.0.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\closedxml.parser\\2.0.0\\closedxml.parser.2.0.0.nupkg.sha512",
