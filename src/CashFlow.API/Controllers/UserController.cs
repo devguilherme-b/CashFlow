@@ -16,6 +16,7 @@ public class UserController : ControllerBase
         [FromBody] RequestUserJson request)
     {
         var response = await useCase.Execute(request);
+        
         return Created(string.Empty, response);
     }
 }

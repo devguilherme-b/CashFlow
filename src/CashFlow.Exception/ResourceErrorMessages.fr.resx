@@ -150,4 +150,7 @@
   <data name="EMAIL_ALREADY_EXISTS" xml:space="preserve">
     <value>L'email saisi est déjà utilisé.</value>
   </data>
+  <data name="INVALID_EMAIL_OR_PASSWORD" xml:space="preserve">
+    <value>E-mail e/ou mot de passe invalide.</value>
+  </data>
 </root>

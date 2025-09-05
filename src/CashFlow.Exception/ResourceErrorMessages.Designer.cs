@@ -115,6 +115,15 @@ namespace CashFlow.Exception {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Invalid email and/or password..
+        /// </summary>
+        public static string INVALID_EMAIL_OR_PASSWORD {
+            get {
+                return ResourceManager.GetString("INVALID_EMAIL_OR_PASSWORD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The password must be at least 6 characters long, containing at least one uppercase letter, one lowercase letter, one number, and one special character (for example: !, @, #, $, .)..
         /// </summary>
         public static string INVALID_PASSWORD {

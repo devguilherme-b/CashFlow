@@ -20,4 +20,9 @@ internal class UserRepository : IUserReadOnlyRepository, IUserWriteOnlyRepositor
     {
         return await _dbcontext.Users.AnyAsync(user => user.Email.Equals(email, StringComparison.OrdinalIgnoreCase)); // Using OrdinalIgnoreCase to ensure email comparison is case-insensitive and culture-invariant
     }
+
+    public async Task<User?> GetUserByEmail(string email)
+    {
+        return await _dbcontext.Users.AsNoTracking().FirstOrDefaultAsync(user => user.Email.Equals(email));
+    }
 }
