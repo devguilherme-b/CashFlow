@@ -1,4 +1,5 @@
-﻿using CashFlow.Domain.Repositories;
+﻿using AutoMapper.Configuration;
+using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.Expenses;
 using CashFlow.Domain.Repositories.Users;
 using CashFlow.Domain.Security.Cryptography;

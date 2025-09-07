@@ -165,3 +165,6 @@ D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.Ident
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\A1 - Projetos\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

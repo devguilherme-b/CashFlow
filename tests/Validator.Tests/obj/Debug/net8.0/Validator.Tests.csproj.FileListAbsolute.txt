@@ -203,3 +203,9 @@ D:\A1 - Projetos\.NET\CashFlow\tests\Validator.Tests\obj\Debug\net8.0\refint\Val
 D:\A1 - Projetos\.NET\CashFlow\tests\Validator.Tests\obj\Debug\net8.0\Validator.Tests.pdb
 D:\A1 - Projetos\.NET\CashFlow\tests\Validator.Tests\obj\Debug\net8.0\Validator.Tests.genruntimeconfig.cache
 D:\A1 - Projetos\.NET\CashFlow\tests\Validator.Tests\obj\Debug\net8.0\ref\Validator.Tests.dll
+D:\A1 - Projetos\.NET\CashFlow\tests\Validator.Tests\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\A1 - Projetos\.NET\CashFlow\tests\Validator.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\A1 - Projetos\.NET\CashFlow\tests\Validator.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\A1 - Projetos\.NET\CashFlow\tests\Validator.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\A1 - Projetos\.NET\CashFlow\tests\Validator.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\A1 - Projetos\.NET\CashFlow\tests\Validator.Tests\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
