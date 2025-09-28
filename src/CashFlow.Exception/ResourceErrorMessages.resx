@@ -153,4 +153,7 @@
   <data name="INVALID_EMAIL_OR_PASSWORD" xml:space="preserve">
     <value>Invalid email and/or password.</value>
   </data>
+  <data name="NAME_EMPTY" xml:space="preserve">
+    <value>The entered name cannot be empty.</value>
+  </data>
 </root>

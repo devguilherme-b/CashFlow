@@ -10,6 +10,6 @@ public class RequestRegisterUserJsonBuilder
         return new Faker<RequestUserJson>()
             .RuleFor(faker => faker.Name, faker => faker.Person.FirstName)
             .RuleFor(faker => faker.Email, faker => faker.Person.Email)
-            .RuleFor(faker => faker.Password, faker => faker.Internet.Password(prefix: "@!Gu"));
+            .RuleFor(faker => faker.Password, faker => faker.Internet.Password(prefix: "@!Gu4"));
     }
 }

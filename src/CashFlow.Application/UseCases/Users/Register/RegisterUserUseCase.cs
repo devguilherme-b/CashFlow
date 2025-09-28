@@ -35,7 +35,7 @@ public class RegisterUserUseCase : IRegisterUserUseCase
     }
     public async Task<ResponseRegisterUserJson> Execute(RequestUserJson request)
     {
-        Validate(request);
+        await Validate(request);
 
         var user = _mapper.Map<User>(request);
 
