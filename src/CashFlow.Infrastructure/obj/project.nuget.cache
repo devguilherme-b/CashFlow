@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nFUXIw+z/8M=",
+  "dgSpecHash": "H7cH5V4ClDQ=",
   "success": true,
-  "projectFilePath": "D:\\A1 - Projetos\\.NET\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
+  "projectFilePath": "D:\\1 - PROJETOS\\.NET\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\devgu\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

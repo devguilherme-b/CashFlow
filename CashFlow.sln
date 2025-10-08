@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommomTestsUtilities", "tests\CommomTestsUtilities\CommomTestsUtilities.csproj", "{FC5B23C6-5132-405E-A957-14CF461BECAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterUserUseCases.Tests", "tests\RegisterUserUseCase.Tests\RegisterUserUseCases.Tests.csproj", "{EAF1305B-866E-4B63-AED4-5A567FCAF899}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCases.Tests", "tests\RegisterUserUseCase.Tests\UseCases.Tests.csproj", "{EAF1305B-866E-4B63-AED4-5A567FCAF899}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

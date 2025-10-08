@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\A1 - Projetos\\.NET\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
+      "projectUniqueName": "D:\\1 - PROJETOS\\.NET\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
       "projectName": "CashFlow.Domain",
-      "projectPath": "D:\\A1 - Projetos\\.NET\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
+      "projectPath": "D:\\1 - PROJETOS\\.NET\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
       "packagesPath": "C:\\Users\\devgu\\.nuget\\packages\\",
-      "outputPath": "D:\\A1 - Projetos\\.NET\\CashFlow\\src\\CashFlow.Domain\\obj\\",
+      "outputPath": "D:\\1 - PROJETOS\\.NET\\CashFlow\\src\\CashFlow.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

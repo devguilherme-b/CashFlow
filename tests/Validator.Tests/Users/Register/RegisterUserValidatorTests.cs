@@ -4,7 +4,7 @@ using CommomTestsUtilities.Requests;
 using Shouldly;
 
 namespace Validator.Tests.Users.Register;
-public class RegisterUserValidatorTest
+public class RegisterUserValidatorTests
 {
     [Fact]
     public void SuccessUserValidator()

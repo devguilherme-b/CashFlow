@@ -18,8 +18,4 @@
     <ProjectReference Include="..\..\src\CashFlow.Application\CashFlow.Application.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Token\" />
-  </ItemGroup>
-
 </Project>

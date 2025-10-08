@@ -3,7 +3,7 @@ using CashFlow.Communication.Requests;
 using FluentValidation;
 
 namespace Validator.Tests.Users;
-public class PasswordValidatorTest
+public class PasswordValidatorTests
 {
     [Theory]
     [InlineData("")]

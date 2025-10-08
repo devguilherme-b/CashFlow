@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2aMWOJl5Xwk=",
-  "success": false,
-  "projectFilePath": "D:\\A1 - Projetos\\.NET\\CashFlow\\tests\\CommomTestsUtilities\\CommomTestsUtilities.csproj",
+  "dgSpecHash": "l4PvC11jCyo=",
+  "success": true,
+  "projectFilePath": "D:\\1 - PROJETOS\\.NET\\CashFlow\\tests\\CommomTestsUtilities\\CommomTestsUtilities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\devgu\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
@@ -44,15 +44,5 @@
     "C:\\Users\\devgu\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  CommomTestsUtilities -> CashFlow.Application -> CommomTestsUtilities.",
-      "libraryId": "CommomTestsUtilities",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

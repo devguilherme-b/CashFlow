@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ykYRWVSvsVA=",
+  "dgSpecHash": "N/ZiFlXHOA0=",
   "success": true,
-  "projectFilePath": "D:\\A1 - Projetos\\.NET\\CashFlow\\tests\\Validator.Tests\\Validator.Tests.csproj",
+  "projectFilePath": "D:\\1 - PROJETOS\\.NET\\CashFlow\\tests\\Validator.Tests\\Validator.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\devgu\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
     "C:\\Users\\devgu\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

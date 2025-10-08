@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="UseCases\Users\Register\RegisterUserUseCaseTest.cs" />
+    <None Include="UseCases\Users\Register\RegisterUserUseCaseTests.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,8 +21,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\CashFlow.Application\CashFlow.Application.csproj" />
+    <ProjectReference Include="..\CommomTestsUtilities\CommomTestsUtilities.csproj" />
   </ItemGroup>
+
+  <!--<ItemGroup>
+    <Reference Include="CashFlow.Application">
+      <HintPath>..\..\src\CashFlow.Application\obj\Debug\net8.0\ref\CashFlow.Application.dll</HintPath>
+    </Reference>
+  </ItemGroup>-->
 
   <ItemGroup>
     <Using Include="Xunit" />

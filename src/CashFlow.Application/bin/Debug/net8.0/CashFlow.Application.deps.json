@@ -14,7 +14,6 @@
           "CashFlow.Exception": "1.0.0",
           "CashFlow.Infrastructure": "1.0.0",
           "ClosedXML": "0.105.0",
-          "CommomTestsUtilities": "1.0.0",
           "FluentValidation": "12.0.0",
           "PDFsharp-MigraDoc": "6.2.1"
         },
@@ -38,14 +37,6 @@
           "lib/net6.0/BCrypt.Net-Next.dll": {
             "assemblyVersion": "4.0.3.0",
             "fileVersion": "4.0.3.0"
-          }
-        }
-      },
-      "Bogus/35.6.3": {
-        "runtime": {
-          "lib/net6.0/Bogus.dll": {
-            "assemblyVersion": "35.6.3.0",
-            "fileVersion": "35.6.3.0"
           }
         }
       },
@@ -497,18 +488,6 @@
             "fileVersion": "1.0.0.0"
           }
         }
-      },
-      "CommomTestsUtilities/1.0.0": {
-        "dependencies": {
-          "Bogus": "35.6.3",
-          "CashFlow.Communication": "1.0.0"
-        },
-        "runtime": {
-          "CommomTestsUtilities.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -531,13 +510,6 @@
       "sha512": "sha512-W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
       "path": "bcrypt.net-next/4.0.3",
       "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
-    },
-    "Bogus/35.6.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+5omfZWy8gOcbpc48vKfMI4h/ecbdf3NQm6xCl3zMbaP4J3rMMm5h3kPFeIWBgt4mbz6YY0eeZDLR/6yv1khKw==",
-      "path": "bogus/35.6.3",
-      "hashPath": "bogus.35.6.3.nupkg.sha512"
     },
     "ClosedXML/0.105.0": {
       "type": "package",
@@ -786,11 +758,6 @@
       "sha512": ""
     },
     "CashFlow.Infrastructure/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CommomTestsUtilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

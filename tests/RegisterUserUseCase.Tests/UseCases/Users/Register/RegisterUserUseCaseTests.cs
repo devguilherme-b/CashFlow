@@ -9,7 +9,6 @@ namespace RegisterUserUseCasesTests.UseCases.Users.Register;
 public class RegisterUserUseCaseTests
 {
 	[Fact]
-
 	public async Task Success()
 	{
 		// Arrange
@@ -21,20 +20,23 @@ public class RegisterUserUseCaseTests
 
 		// Assert
 		Assert.Equal(request.Name, result.Name);
-	}
+        Assert.NotNull(result.Token);
+    }
 
 	private RegisterUserUseCase CreateUseCaseInstance()
 	{
 		// Caso real
-		var mapper = MapperBuilder.Build();
+		var loggerFactory= LoggerFactoryBuilder.Build(); // Mockando o LoggerFactory (Eu improvisei aqui - pois no curso não tinha essa parte)
+        var mapper = MapperBuilder.Build(loggerFactory);
 
 		// Mockando as dependências com a biblioteca Moq
 		var unitOfWork = UnitOfWorkBuilder.Build();
 		var userWriteOnlyRepositoryBuilder = UserWriteOnlyRepositoryBuilder.Build();
 		var passwordEncripterBuilder = PasswordEncripterBuilder.Build();
 		var accessTokenGenerateBuilder = AccessTokenGenerateBuilder.Build();
+		var userReadOnlyRepository = new UserReadOnlyRepositoryBuilder().Build();
 
-        return new RegisterUserUseCase(mapper, passwordEncripterBuilder, null, userWriteOnlyRepositoryBuilder, unitOfWork, accessTokenGenerateBuilder);
+        return new RegisterUserUseCase(mapper, passwordEncripterBuilder, userReadOnlyRepository, userWriteOnlyRepositoryBuilder, unitOfWork, accessTokenGenerateBuilder);
 	}
 }
 
