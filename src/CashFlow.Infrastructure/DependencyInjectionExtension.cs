@@ -20,7 +20,10 @@ public static class DependencyInjectionExtension
     {
         AddRepositories(services);
         AddCryptography(services);
-        AddDbContext(services, configuration);
+
+        if (configuration.GetValue<bool>("IsTestEnviroment") == false)
+            AddDbContext(services, configuration);
+        
         AddToken(services, configuration);
     }
 
@@ -42,15 +45,13 @@ public static class DependencyInjectionExtension
     }
     private static void AddCryptography(IServiceCollection services)
     {
-        services.AddScoped<IPasswordEncripter, Cryptography>();
+        services.AddScoped<IPasswordEncrypter, Cryptography>();
     }
     private static void AddDbContext(IServiceCollection services, IConfiguration configuration)
     {
         var connectionString = configuration.GetConnectionString("connection");
 
-        var version = new Version(8, 0, 42);
-
-        var serverVersion = new MySqlServerVersion(version);
+        var serverVersion = ServerVersion.AutoDetect(connectionString);
 
         services.AddDbContext<CashFlowDbContext>(config => config.UseMySql(connectionString, serverVersion));
     }

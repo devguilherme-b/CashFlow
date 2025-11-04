@@ -84,7 +84,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-await CreateMigrationForDatabase();
+if (builder.Configuration.GetValue<bool>("IsTestEnviroment") == false)
+    await CreateMigrationForDatabase();
 
 app.Run();
 
@@ -93,3 +94,5 @@ async Task CreateMigrationForDatabase()
     await using var scope = app.Services.CreateAsyncScope();
     await DataBaseMigration.MigrateDatabase(scope.ServiceProvider);
 }
+
+public partial class Program { } // Para refenciar no WebApplicationFactory dos testes de integração

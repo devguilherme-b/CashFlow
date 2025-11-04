@@ -335,3 +335,4 @@ D:\1 - PROJETOS\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\staticwebassets.
 D:\1 - PROJETOS\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.8F1C3061.Up2Date
 D:\1 - PROJETOS\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.genruntimeconfig.cache
 D:\1 - PROJETOS\.NET\CashFlow\src\CashFlow.API\obj\Debug\net8.0\ref\CashFlow.API.dll
+D:\1 - PROJETOS\.NET\CashFlow\src\CashFlow.API\bin\Debug\net8.0\appsettings.Test.json

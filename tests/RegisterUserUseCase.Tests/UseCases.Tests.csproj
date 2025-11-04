@@ -16,6 +16,7 @@
   <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="Shouldly" Version="4.3.0" />
     <PackageReference Include="xunit" Version="2.5.3" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
   </ItemGroup>
@@ -23,12 +24,6 @@
   <ItemGroup>
     <ProjectReference Include="..\CommomTestsUtilities\CommomTestsUtilities.csproj" />
   </ItemGroup>
-
-  <!--<ItemGroup>
-    <Reference Include="CashFlow.Application">
-      <HintPath>..\..\src\CashFlow.Application\obj\Debug\net8.0\ref\CashFlow.Application.dll</HintPath>
-    </Reference>
-  </ItemGroup>-->
 
   <ItemGroup>
     <Using Include="Xunit" />
